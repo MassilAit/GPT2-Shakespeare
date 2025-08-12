@@ -46,8 +46,8 @@ The goal is to understand the trade-offs between reusing a pretrained model and 
 
 3. In the notebook, choose your model:
    
-   # From-scratch model
+   ### From-scratch model
    model = GPT(GPTConfig())
 
-   # OR: Hugging Face pretrained GPT-2 (124M) for fine-tuning
+   ### OR: Hugging Face pretrained GPT-2 (124M) for fine-tuning
    model = GPT.from_pretrained("gpt2")
